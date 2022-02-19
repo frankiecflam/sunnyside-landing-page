@@ -1,0 +1,12 @@
+@import "../utils/variables";
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: $color-darkest-desaturated-blue;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}

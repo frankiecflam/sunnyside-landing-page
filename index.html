@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+      <!-- SEO -->
+      <meta name="description" content="This is a coding challenge from Front-end mentor. The purpose of coding this website is to practise my HTML, CSS and a bit of JavaScript skills. The design of this website is partially different from the original, solely for the purpose of my own sense of aesthetics and also joy of testing out the features I have learnt recently.">
+      <!-- Google fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+      <!-- Favicon -->
+      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link rel="stylesheet" href="static/css/style.css">
+      <!-- JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+      <script defer src="static/js/script.js"></script>
+    
+      <title>Frontend Mentor | Sunnyside agency landing page</title>
+    </head>
+    <body>
+      <div class="top-bar">
+        <a class="logo__link" href="#"><img class="logo__img" src="images/logo.svg"></a>
+        <nav class="nav">
+          <menu class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#features">Features</a></li>
+            <li class="nav__item"><a class="nav__link" href="#testimonials">Testimonials</a></li>
+            <li class="nav__item"><a class="nav__link" href="#gallery">Gallery</a></li>
+            <li class="nav__item"><a class="nav__link" href="#contact" id="nav__contact">Contact</a></li>
+          </menu>
+        </nav>
+        <div class="nav__btn">
+          <div class="nav__btn-menu"></div>
+        </div>
+      </div>
+
+      <header class="header">
+        <h1 class="header__heading">we are creatives</h1>
+        <img class="header__arrow" src="images/icon-arrow-down.svg"></img>
+      </header>
+
+      <main class="main">
+        <section class="features" id="features">
+          <div class="feature">
+            <div class="feature__text">
+              <h2 class="feature__heading">Transform your brand</h2>
+              <p class="feature__description">We are a full-service creative agency specializing in helping brands grow fast. 
+                Engage your clients through compelling visuals that do most of the marketing for you.</p>
+              <a class="feature__link" href="#learn">Learn more</a>
+            </div>
+          </div>
+
+          <div class="feature">
+            <img class="feature__img" alt="feature photo" src="images/mobile/image-transform.jpg"
+                srcset="images/mobile/image-transform.jpg 750w,
+                        images/desktop/image-transform.jpg 720w"
+            >
+          </div>
+
+          <div class="feature">
+            <img class="feature__img" alt="feature photo" src="images/mobile/image-stand-out.jpg"
+                srcset="images/mobile/image-stand-out.jpg 750w,
+                        images/desktop/image-stand-out.jpg 720w"
+            >
+          </div>
+
+          <div class="feature">
+            <div class="feature__text">
+              <h2 class="feature__heading">Stand out to the right audience</h2>
+              <p class="feature__description">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+              </p>
+              <a class="feature__link" href="#learn">Learn more</a>
+            </div>
+          </div>
+
+          <div class="feature" data-title="graphic">
+            <div class="feature__text">
+              <h2 class="feature__heading">Graphic design</h2>
+              <p class="feature__description">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature" data-title="photography">
+            <div class="feature__text">
+              <h2 class="feature__heading">Photography</h2>
+              <p class="feature__description">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+          <h2 class="testimonials__heading">client testimonials</h2>
+          <div class="testimonials__review">
+            <img class="testimonials__img" alt="Emily R's photo" src="images/image-emily.jpg">
+            <p class="testimonials__description">
+              We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+            </p>
+            <div class="testimonials__client">
+              <p class="testimonials__client-name">Emily R.</p>
+              <p class="testimonials__client-position">Marketing Director</p>
+            </div>
+          </div>
+
+          <div class="testimonials__review">
+            <img class="testimonials__img" alt="Thomas S's photo" src="images/image-thomas.jpg">
+            <p class="testimonials__description">
+              Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <div class="testimonials__client">
+              <p class="testimonials__client-name">Thomas S.</p>
+              <p class="testimonials__client-position">Chief Operating Officer</p>
+            </div>
+          </div>
+
+          <div class="testimonials__review">
+            <img class="testimonials__img" alt="Jennie F's photo" src="images/image-jennie.jpg">
+            <p class="testimonials__description">
+              Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+            </p>
+            <div class="testimonials__client">
+              <p class="testimonials__client-name">Jennie F.</p>
+              <p class="testimonials__client-position">Business Owner</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+          <img class="gallery__img" alt="milk bottle" src="images/mobile/image-gallery-milkbottles.jpg"
+            srcset="images/mobile/image-gallery-milkbottles.jpg 376w,
+                    images/desktop/image-gallery-milkbottles.jpg 720w"
+          >
+          <img class="gallery__img" alt="milk bottle" src="images/mobile/image-gallery-orange.jpg"
+            srcset="images/mobile/image-gallery-orange.jpg 376w,
+                    images/desktop/image-gallery-orange.jpg 720w"
+          >
+          <img class="gallery__img" alt="milk bottle" src="images/mobile/image-gallery-cone.jpg"
+            srcset="images/mobile/image-gallery-cone.jpg 376w,
+                    images/desktop/image-gallery-cone.jpg 720w"
+          >
+          <img class="gallery__img" alt="milk bottle" src="images/mobile/image-gallery-sugar-cubes.jpg"
+            srcset="images/mobile/image-gallery-sugar-cubes.jpg 376w,
+                    images/desktop/image-gallery-sugar-cubes.jpg 720w"
+          >
+        </section>
+      </main>
+
+      <footer class="footer" id="contact">
+        <h3 class="footer__heading">sunnyside</h3>
+        <nav class="footer__nav">
+          <menu class="footer__nav-list">
+            <li class="footer__nav-item"><a class="footer__nav-link" href="#features">Features</a></li>
+            <li class="footer__nav-item"><a class="footer__nav-link" href="#testimonials">Testimonials</a></li>
+            <li class="footer__nav-item"><a class="footer__nav-link" href="#gallery">Gallery</a></li>
+            <li class="footer__nav-item"><a class="footer__nav-link" href="#contact">Contact</a></li>
+          </menu>
+        </nav>
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.facebook.com/" target="__blank">
+              <img class="footer__social-icon" alt="facebook" src="images/icon-facebook.svg">
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.instagram.com/" target="__blank">
+              <img class="footer__social-icon" alt="instagram" src="images/icon-instagram.svg">
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.twitter.com/" target="__blank">
+              <img class="footer__social-icon" alt="twitter" src="images/icon-twitter.svg">
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.pinterest.com/" target="__blank">
+              <img class="footer__social-icon" alt="pinterest" src="images/icon-pinterest.svg">
+            </a>
+          </li>
+        </ul>
+        <div class="attribution">
+          Challenged by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by Frankie Lam.
+        </div>
+      </footer>
+
+    </body>
+</html>
