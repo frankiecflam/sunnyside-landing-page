@@ -108,6 +108,6 @@ tl.from(".header", {
 
 ## Author
 
-- Email - [Frankie Lam](frankiechunfai@gmail.com)
+- Email - [Frankie Lam] @frankiechunfai@gmail.com
 - Instagram - [@frankie__](https://www.instagram.com/frankie___lam/)
 - Facebook - [Frankie Lam](https://www.facebook.com/frankiecflam/)
