@@ -57,7 +57,7 @@ This is a coding challenge from Front-end mentor. The purpose of coding this web
 
 ### What I learned
 
-##### SASS
+#### SASS
 
 This is my first time coding a website with the use of SASS. Throughout the project, I managed to use various features of SASS, including nesting, maxin and custom variables.
 
@@ -69,7 +69,7 @@ This is my first time coding a website with the use of SASS. Throughout the proj
   }
 ```
 
-##### BEM naming methodlogy
+#### BEM naming methodlogy
 
 BEM naming makes my code easier to understand and manage. Before this project, I used to name elements in a casual way, thereby creating so much confusion in understanding and organising of CSS properties when projects get bigger.
 
@@ -80,7 +80,7 @@ BEM naming makes my code easier to understand and manage. Before this project, I
 </header>
 ```
 
-##### GSAP
+#### GSAP
 
 Despite not listed as a feature requirement for the challenge, I learned from Youtube to use GSAP to do a front-page revealing animation to further enhance the interaction with users.
 
