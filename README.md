@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/frankiecflam/sunnyside-landing-page](https://github.com/frankiecflam/sunnyside-landing-page)
+- Live Site URL: [https://frankie-sunnyside.netlify.app/](https://frankie-sunnyside.netlify.app/)
 
 ## My process
 
@@ -57,7 +57,7 @@ This is a coding challenge from Front-end mentor. The purpose of coding this web
 
 ### What I learned
 
-##### SASS
+#### SASS
 
 This is my first time coding a website with the use of SASS. Throughout the project, I managed to use various features of SASS, including nesting, maxin and custom variables.
 
@@ -69,18 +69,18 @@ This is my first time coding a website with the use of SASS. Throughout the proj
   }
 ```
 
-##### BEM naming methodlogy
+#### BEM naming methodlogy
 
 BEM naming makes my code easier to understand and manage. Before this project, I used to name elements in a casual way, thereby creating so much confusion in understanding and organising of CSS properties when projects get bigger.
 
 ```html
 <header class="header">
   <h1 class="header__heading">we are creatives</h1>
-  <img class="header__arrow" src="images/icon-arrow-down.svg"></img>
+  <img class="header__arrow" src="images/icon-arrow-down.svg" alt="Down arrow"></img>
 </header>
 ```
 
-##### GSAP
+#### GSAP
 
 Despite not listed as a feature requirement for the challenge, I learned from Youtube to use GSAP to do a front-page revealing animation to further enhance the interaction with users.
 
@@ -108,6 +108,6 @@ tl.from(".header", {
 
 ## Author
 
-- Email - [Frankie Lam](frankiechunfai@gmail.com)
+- Email - [Frankie Lam] @frankiechunfai@gmail.com
 - Instagram - [@frankie__](https://www.instagram.com/frankie___lam/)
 - Facebook - [Frankie Lam](https://www.facebook.com/frankiecflam/)
